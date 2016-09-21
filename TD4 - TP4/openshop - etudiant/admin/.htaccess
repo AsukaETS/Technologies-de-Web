@@ -1,0 +1,5 @@
+AuthName "PHRASE D'ACCUEIL" 
+AuthType Basic 
+AuthUserFile "D:\EasyPHP-5.3.3\www\openshop\admin\.htpasswd" 
+Require valid-user 
+

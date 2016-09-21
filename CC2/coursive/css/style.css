@@ -1,0 +1,56 @@
+*{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+ul{
+    list-style: none;
+}
+
+body { background:#131313; }
+
+
+
+.grid {
+   max-width: 1200px;
+}
+
+
+ul li{
+  position: relative;
+}
+
+.description{
+  position:absolute;
+    bottom:0;
+    background: rgba(0,0,0,0.8);
+    width:100%;
+}
+
+.description h3{
+    color:#b61c37;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.description p{
+ color:#fff;   
+    padding: 10px;
+    
+}
+
+
+
+.grid-item {
+  width: 192px;
+  height: 192px;
+}
+
+.taille2{ width: 384px; height:384px; }
+
+
+
+

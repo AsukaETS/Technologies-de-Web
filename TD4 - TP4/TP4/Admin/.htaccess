@@ -1,0 +1,5 @@
+AuthName "PHRASE D'ACCUEIL" 
+AuthType Basic 
+AuthUserFile "H:\Licence 2 - Info\Technologie du Web 2\TD4 - TP4\TP4\Admin\.htpasswd" 
+Require valid-user 
+
