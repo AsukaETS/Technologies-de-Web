@@ -1,9 +1,10 @@
 <?php
+session_start();
 include 'utile.php';
 include 'connexion.php';
 
 
-session_start();
+
 //Vérifier l'existence de la session panier :
 if (!isset($_SESSION['panier'])) {
  $_SESSION['panier'] = array();   

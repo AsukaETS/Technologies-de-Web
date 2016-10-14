@@ -1,5 +1,7 @@
+<?php session_start(); ?>
 <?php include "utile.php"; ?>
-<?php include "connexion.php"; ?>
+<?php include "connexion.php"; 
+$date = date("d-m-Y");?>
 
 <!DOCTYPE html>
 <html>
@@ -12,7 +14,7 @@
 <!-- DEBUT de la page -->
     <?php require "header.php"; ?>
 	<section>
-				<header>Bienvenue <span class="ss-titre">Nous sommes le ?????? </span></header>
+				<header>Bienvenue <span class="ss-titre">Nous sommes le <?php echo $date ?> </span></header>
 				<p>La boutique en ligne <strong>openSHOP</strong> est un travail réalisé par <em>Thomas Jouannic</em> & <em>Jérome Saunier</em> 
 				puis modifié et adapté <strong>au cours de Sites Web Avancés</strong>.</p>
 				<p>Dans la partie haute, vous trouverez un moyen pour vous identifiez ou créer un compte si vous n'en n'avez aucun. Le champ de recherche 

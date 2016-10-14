@@ -1,8 +1,7 @@
 <?php
+session_start();
 include 'utile.php';
 include 'connexion.php';
-
-session_start();
 ?>
 
 <!DOCTYPE html>

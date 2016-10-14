@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include "utile.php"; ?>
 <?php include "connexion.php"; ?>
 
